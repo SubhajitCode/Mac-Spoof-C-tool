@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="Torrents.Binaries">
+            <Component Id="com_A7F4B258_B31D_4958_9496_36C0D4C7B668" Guid="{6F850741-8127-4FF5-BD58-DF716479632E}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="_A7F4B258_B31D_4958_9496_36C0D4C7B668" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.Torrents.TargetDir)\Torrents.exe" />
+            </Component>
+            <Component Id="cmp0AF89E8793ABC59722CCDA678EE775FF" Guid="{9FDBCFB9-F6CC-406B-9764-4D040E3DFAA1}" Permanent="no" SharedDllRefCount="no" Transitive="no">
+                <File Id="fil4CFC7E9CFCFFCB34FC2FC0A87B56596C" DiskId="1" Hidden="no" KeyPath="yes" ReadOnly="no" System="no" TrueType="no" Vital="yes" Source="$(var.Torrents.TargetDir)\Torrents.exe.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="Torrents.Binaries">
+<ComponentRef Id="com_A7F4B258_B31D_4958_9496_36C0D4C7B668" />
+<ComponentRef Id="cmp0AF89E8793ABC59722CCDA678EE775FF" />
+</ComponentGroup>
+    </Fragment>
+</Wix>

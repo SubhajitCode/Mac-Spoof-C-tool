@@ -1,0 +1,2 @@
+C:\Users\BLUE\Desktop\Torrents\Torrentz\bin\Debug\Torrentz.msi
+C:\Users\BLUE\Desktop\Torrents\Torrentz\bin\Debug\Torrentz.wixpdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="Torrents.Binaries">
+            <Component Id="cmp58B30CE3F26B9D3CAD1703508EA80BB6" Guid="{6F850741-8127-4FF5-BD58-DF716479632E}">
+                <File Id="filE3C626B9BDA7B86E36E17FC77F7D3CA1" Source="$(var.Torrents.TargetDir)\Torrents.exe" />
+            </Component>
+            <Component Id="cmp0AF89E8793ABC59722CCDA678EE775FF" Guid="{9FDBCFB9-F6CC-406B-9764-4D040E3DFAA1}">
+                <File Id="fil4CFC7E9CFCFFCB34FC2FC0A87B56596C" Source="$(var.Torrents.TargetDir)\Torrents.exe.config" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="Torrents.Binaries">
+            <ComponentRef Id="cmp58B30CE3F26B9D3CAD1703508EA80BB6" />
+            <ComponentRef Id="cmp0AF89E8793ABC59722CCDA678EE775FF" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

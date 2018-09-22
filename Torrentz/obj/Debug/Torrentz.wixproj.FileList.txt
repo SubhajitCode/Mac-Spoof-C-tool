@@ -1,0 +1,8 @@
+C:\Users\BLUE\Desktop\Torrents\Torrentz\bin\Debug\Torrentz.msi
+C:\Users\BLUE\Desktop\Torrents\Torrentz\bin\Debug\Torrentz.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\pth684C3EE2F780C2975E6E03448DBA19B7\_Torrents.wixobj
+obj\Debug\Torrentz.wixproj.BindContentsFileListnull.txt
+obj\Debug\Torrentz.wixproj.BindOutputsFileListnull.txt
+obj\Debug\Torrentz.wixproj.BindBuiltOutputsFileListnull.txt
+obj\Debug\StandardUI.wixobj

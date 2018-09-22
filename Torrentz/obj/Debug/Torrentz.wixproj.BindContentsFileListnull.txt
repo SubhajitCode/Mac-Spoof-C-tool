@@ -1,0 +1,4 @@
+..\Torrents\macreset.bat
+C:\Users\BLUE\Desktop\Torrents\Torrents\bin\Debug\\Torrents.exe
+..\..\..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.JScript.dll
+C:\Users\BLUE\Desktop\Torrents\Torrents\bin\Debug\\Torrents.exe.config
